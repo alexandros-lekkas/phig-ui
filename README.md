@@ -13,5 +13,5 @@ I built this library to help me build my own projects and I hope it can help you
 Follow the instructions below to install Phig UI:
 
 ```bash
-npm install @phig-ui
+npm install phig-ui
 ```
