@@ -3,9 +3,9 @@ name: Publish to GitHub Packages
 on:
   push:
     branches:
-      - main # Runs when you push to main
+      - main
     tags:
-      - "v*" # Runs when a new tag like v1.0.0 is pushed
+      - "v*"
 
 jobs:
   publish:
