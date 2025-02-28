@@ -1,29 +1,10 @@
 {
-  "name": "@alexandros-lekkas/phig-ui",
+  "version": "1.0.0",
+  "name": "phig-ui",
   "description": "An opinionated UI library for React built on top of shadcn/ui.",
-  "main": "dist/my-lib.cjs.js",
-  "module": "dist/my-lib.es.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
   "peerDependencies": {
     "react": "^18.x",
     "react-dom": "^18.x"
-  },
-  "version": "1.0.6",
-  "private": false,
-  "type": "module",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "scripts": {
-    "build-library": "vite build",
-    "watch-library": "vite build --watch",
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.2",
@@ -51,5 +32,21 @@
     "vite": "^6.2.0",
     "vite-plugin-dts": "^4.5.1",
     "vite-tsconfig-paths": "^5.1.4"
+  },
+  "main": "dist/my-lib.cjs.js",
+  "module": "dist/my-lib.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "build-library": "vite build",
+    "watch-library": "vite build --watch",
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   }
 }
