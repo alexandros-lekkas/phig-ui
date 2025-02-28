@@ -1,5 +1,5 @@
 {
-  "name": "@alexandroslekkas/phig-ui",
+  "name": "phig-ui",
   "description": "An opinionated UI library for React built on top of shadcn/ui.",
   "main": "dist/my-lib.cjs.js",
   "module": "dist/my-lib.es.js",
