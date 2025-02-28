@@ -1,7 +1,19 @@
 {
-  "name": "phig-ui",
-  "version": "0.1.0",
+  "name": "@alexandroslekkas/phig-ui",
+  "description": "An opinionated UI library for React built on top of shadcn/ui.",
+  "main": "dist/my-lib.cjs.js",
+  "module": "dist/my-lib.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "^18.x",
+    "react-dom": "^18.x"
+  },
+  "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "build-library": "vite build",
     "watch-library": "vite build --watch",
@@ -34,6 +46,7 @@
     "tailwindcss": "^4",
     "typescript": "^5",
     "vite": "^6.2.0",
-    "vite-plugin-dts": "^4.5.1"
+    "vite-plugin-dts": "^4.5.1",
+    "vite-tsconfig-paths": "^5.1.4"
   }
 }
