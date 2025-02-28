@@ -5,5 +5,6 @@ An opinionated UI library for React built on top of shadcn/ui.
 ## Installation 🚀
 
 ```bash
-npm install @alexandros-lekkas/phig-ui --registry=https://npm.pkg.github.com/
+set npm_config_@alexandros-lekkas:registry=https://npm.pkg.github.com/
+npm install @alexandros-lekkas/phig-ui
 ```
