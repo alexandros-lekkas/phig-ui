@@ -13,9 +13,5 @@ I built this library to help me build my own projects and I hope it can help you
 Follow the instructions below to install Phig UI:
 
 ```bash
-set npm_config_@alexandros-lekkas:registry=https://npm.pkg.github.com/
-```
-
-```bash
-npm install @alexandros-lekkas/phig-ui
+npm install @phig-ui
 ```
