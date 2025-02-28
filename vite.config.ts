@@ -11,10 +11,10 @@ export default defineConfig({
       entry: path.resolve(__dirname, "src/index.ts"),
       name: "Phig UI",
       formats: ["es", "cjs"],
-      fileName: (format) => `my-lib.${format}.js`
+      fileName: (format) => `my-lib.${format}.js`,
     },
     rollupOptions: {
       external: ["react", "react-dom"],
-    }
-  }
+    },
+  },
 });
