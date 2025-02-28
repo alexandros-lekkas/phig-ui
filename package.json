@@ -55,7 +55,6 @@
   "type": "module",
   "private": false,
   "scripts": {
-    "commit": "gz",
     "build-library": "vite build",
     "watch-library": "vite build --watch",
     "dev": "next dev --turbopack",
