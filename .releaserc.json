@@ -1,6 +1,6 @@
 {
   "branches": ["main"],
-  "repositoryUrl": "https://github.com/yourusername/your-repo.git",
+  "repositoryUrl": "https://github.com/alexandros-lekkas/phig-ui.git",
   "plugins": [
     "@semantic-release/release-notes-generator",
     [
