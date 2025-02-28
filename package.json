@@ -62,5 +62,8 @@
     "start": "next start",
     "lint": "next lint",
     "semantic-release": "semantic-release --branches main"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
