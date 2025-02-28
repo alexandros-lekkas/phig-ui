@@ -2,8 +2,20 @@
   "branches": ["main"],
   "repositoryUrl": "https://github.com/yourusername/your-repo.git",
   "plugins": [
-    "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "present": "conventionalcommits",
+        "releaseRules": [
+          { "type": "fix", "release": "patch" },
+          { "type": "Fix", "release": "patch" },
+          { "type": "feat", "release": "minor" },
+          { "type": "Feat", "release": "minor" },
+          { "type": "BREAKING CHANGE", "release": "major" }
+        ]
+      }
+    ],
     [
       "@semantic-release/changelog",
       {
