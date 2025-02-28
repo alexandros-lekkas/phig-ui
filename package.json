@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "0.0.0",
   "name": "phig-ui",
   "description": "An opinionated UI library for React built on top of shadcn/ui.",
   "peerDependencies": {
