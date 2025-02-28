@@ -12,7 +12,7 @@
     "react-dom": "^18.x"
   },
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "type": "module",
   "scripts": {
     "build-library": "vite build",
