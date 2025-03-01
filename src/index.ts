@@ -1,3 +1,3 @@
 export const dog = "dog";
 
-export * from "./components/button";
+export { Button } from "./components/button";
