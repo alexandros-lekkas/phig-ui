@@ -5,7 +5,7 @@ import * as React from "react";
 
 export function Button() {
   return (
-    <button>
+    <button className="p-4 bg-blue-500 text-white rounded-lg">
       <h1>Click me!</h1>
     </button>
   );
