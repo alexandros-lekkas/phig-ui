@@ -11,7 +11,7 @@
   },
   "main": "src/index.ts",
   "exports": {
-    "./packace.json": "./package.json",
+    "./package.json": "./package.json",
     ".": "./src/index.ts"
   },
   "files": [
