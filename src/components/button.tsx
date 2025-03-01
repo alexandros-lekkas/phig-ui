@@ -1,5 +1,6 @@
 import * as React from "react";
 
 export function Button() {
-  return <button>Click me!</button>;
+  return <button><h1>
+    Click me!</h1></button>;
 }
