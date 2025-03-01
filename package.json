@@ -10,9 +10,14 @@
     "url": "git+https://github.com/alexandros-lekkas/phig-ui.git"
   },
   "main": "src/index.ts",
+  "exports": {
+    "./packace.json": "./package.json",
+    ".": "./src/index.ts"
+  },
   "files": [
     "src/**/*"
   ],
+  "sideEffects": false,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
