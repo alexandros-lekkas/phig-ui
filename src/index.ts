@@ -1,1 +1,1 @@
-export * from "./button";
+export const dog = "dog";
