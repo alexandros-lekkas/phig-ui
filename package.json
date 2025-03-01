@@ -1,15 +1,21 @@
 {
   "name": "phig-ui",
   "version": "0.0.0--development",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "src/**/*"
+    "dist/**/*"
   ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
   "author": "Alexandros Lekkas",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.8",
-    "semantic-release": "^24.2.3"
+    "semantic-release": "^24.2.3",
+    "typescript": "^5.8.2"
   }
 }
