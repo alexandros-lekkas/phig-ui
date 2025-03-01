@@ -1,6 +1,7 @@
 {
   "name": "phig-ui",
   "version": "0.0.0-development",
+  "author": "Alexandros Lekkas",
   "description": "An opinionated UI library for React built on top of shadcn/ui.",
   "type": "module",
   "private": false,
