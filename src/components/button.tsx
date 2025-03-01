@@ -5,8 +5,8 @@ import * as React from "react";
 
 export function Button() {
   return (
-    <button className="p-4 bg-blue-500 text-white rounded-lg">
-      <h3>Click me!</h3>
+    <button className="p-4 border rounded-full hover:bg-primary">
+      <h2>Click me!</h2>
     </button>
   );
 }
