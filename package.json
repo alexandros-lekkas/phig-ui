@@ -8,7 +8,11 @@
   ],
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "dev": "next dev --turbopack",
+    "build-web": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "author": "Alexandros Lekkas",
   "license": "ISC",
@@ -18,7 +22,9 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.9",
     "@tsconfig/recommended": "^1.0.8",
+    "@types/node": "22.13.8",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "autoprefixer": "^10.4.20",
