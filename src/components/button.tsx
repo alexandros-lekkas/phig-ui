@@ -6,7 +6,7 @@ import * as React from "react";
 export function Button() {
   return (
     <button className="p-4 bg-blue-500 text-white rounded-lg">
-      <h1>Click me!</h1>
+      <h3>Click me!</h3>
     </button>
   );
 }
