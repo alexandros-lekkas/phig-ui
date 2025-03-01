@@ -49,8 +49,8 @@
     "vite-plugin-dts": "^4.5.1",
     "vite-tsconfig-paths": "^5.1.4"
   },
-  "main": "dist/my-lib.cjs.js",
-  "module": "dist/my-lib.es.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
