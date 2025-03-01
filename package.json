@@ -13,8 +13,6 @@
     "src/**/*"
   ],
   "scripts": {
-    "build-library": "vite build",
-    "watch-library": "vite build --watch",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
@@ -59,9 +57,6 @@
     "react-refresh": "^0.16.0",
     "semantic-release": "^24.2.3",
     "tailwindcss": "^4.0.9",
-    "typescript": "^5",
-    "vite": "^6.2.0",
-    "vite-plugin-dts": "^4.5.1",
-    "vite-tsconfig-paths": "^5.1.4"
+    "typescript": "^5"
   }
 }
